@@ -27,7 +27,8 @@
     "react-howler": "^5.2.0",
     "react-icons": "^4.3.1",
     "reset-css": "^5.0.1",
-    "swr": "^1.1.1"
+    "swr": "^1.1.1",
+    "ts-node": "^10.4.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.37",
@@ -45,5 +46,8 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.4.1",
     "prisma": "^3.6.0"
+  },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   }
 }
