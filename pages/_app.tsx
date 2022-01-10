@@ -39,7 +39,6 @@ const MyApp = ({ Component, pageProps }) => {
         <Component {...pageProps} />
         </PlayerLayout>
       )}
-     
     </ChakraProvider>
   );
 };
